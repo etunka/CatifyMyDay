@@ -1,0 +1,41 @@
+.homepage-click {
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  line-height: 1.9;
+  margin-top: 17rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+}
+
+.arrow--straight {
+  right: 9rem;
+}
+
+.arrow {
+  right: 33rem;
+  top: 26rem;
+  img {
+    width: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .homepage-click {
+    font-size: 1.7rem;
+    margin-top: 24rem;
+  }
+  .arrow--straight {
+    width: 2.5rem;
+    right: 16rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .homepage-click {
+    font-size: 1.6rem;
+    margin-top: 19rem;
+  }
+}

@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+  padding-top: 3.5rem;
+  .logo img {
+    width: 2.5rem;
+  }
+  h2 {
+    cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    padding-top: 3.5rem;
+    .logo img {
+      width: 2.5rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    .logo img {
+      width: 2.5rem;
+      margin-right: 0.6rem;
+    }
+  }
+}

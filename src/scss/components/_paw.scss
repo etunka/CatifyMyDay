@@ -1,0 +1,48 @@
+.paw {
+  bottom: 0;
+  right: 2rem;
+  cursor: pointer;
+  img {
+    width: 12rem;
+  }
+}
+
+.paw--small {
+  img {
+    width: 6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .paw {
+    right: 6rem;
+    img {
+      width: 20rem;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .paw {
+    right: 20rem;
+
+    img {
+      width: 16rem;
+      transition: width 0.5s ease;
+      &:hover {
+        width: 16.3rem;
+      }
+    }
+  }
+  .paw--small {
+    bottom: -4em;
+    right: 8rem;
+    transition: bottom 0.5s ease;
+    &:hover {
+      bottom: 0;
+    }
+    img {
+      width: 12rem !important;
+    }
+  }
+}

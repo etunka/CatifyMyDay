@@ -1,0 +1,53 @@
+.content {
+  text-align: center;
+
+  img {
+    width: 100%;
+    margin-top: 1.3em;
+  }
+}
+
+.quote {
+  max-width: 90%;
+  margin: 5.5rem auto 0 auto;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  line-height: 1.4;
+}
+
+.quotee {
+  font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 2.5;
+  letter-spacing: 0.2rem;
+}
+
+@media (min-width: 768px) {
+  .content {
+    max-width: 80%;
+    margin: 2rem auto 0 auto;
+    text-align: inherit;
+  }
+  .quote {
+    max-width: 100%;
+    text-align: left;
+  }
+  .quotee {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: inherit;
+  }
+  .quote {
+    max-width: 100%;
+    line-height: 1.7;
+  }
+}

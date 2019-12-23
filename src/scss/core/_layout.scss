@@ -1,0 +1,41 @@
+body {
+  font-family: "poppins";
+  color: $light-grey;
+}
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: $dark-grey;
+  overflow: hidden;
+}
+
+html {
+  font-size: 12px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.6rem;
+  letter-spacing: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+// tablet
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+// big devices
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 2.2rem;
+    margin: 0;
+  }
+}
