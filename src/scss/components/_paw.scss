@@ -21,6 +21,12 @@
   }
 }
 
+@media (min-width: 320px) {
+  .paw img {
+    width: 9rem;
+  }
+}
+
 @media (min-width: 768px) {
   .paw {
     right: 6rem;
