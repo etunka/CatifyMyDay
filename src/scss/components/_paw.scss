@@ -1,6 +1,8 @@
 .paw {
   bottom: 0;
-  right: 2.3rem;
+  right: 0;
+  left: 0;
+  text-align: center;
   cursor: pointer;
   img {
     width: 12rem;
@@ -25,16 +27,17 @@
   .paw img {
     width: 7rem;
   }
+  .paw--small img {
+    width: 5rem;
+  }
 }
 
 @media (min-width: 768px) {
-  .paw {
-    right: 6rem;
-    bottom: 0;
-    top: inherit;
-    img {
-      width: 20rem;
-    }
+  .paw img {
+    width: 20rem;
+  }
+  .paw--small img {
+    width: 8rem;
   }
 }
 
@@ -56,7 +59,9 @@
     position: fixed;
     bottom: -4rem;
     right: 8rem;
+    left: inherit;
     top: inherit;
+    text-align: inherit;
     transition: bottom 0.5s ease;
     transform: none;
     cursor: pointer;
