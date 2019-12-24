@@ -23,6 +23,7 @@ function renderQuotePage() {
 
   // make the paw smaller and move it aside
   const paw = document.getElementById("paw");
+  paw.classList.remove("paw");
   paw.classList.add("paw--small");
 
   const content = document.getElementById("content");

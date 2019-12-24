@@ -9,7 +9,7 @@
 
 .quote {
   max-width: 90%;
-  margin: 5.5rem auto 0 auto;
+  margin: 9rem auto 0 auto;
   font-weight: 200;
   font-style: italic;
   font-size: 1.3rem;
@@ -33,6 +33,7 @@
   .quote {
     max-width: 100%;
     text-align: left;
+    margin-top: 11rem;
   }
   .quotee {
     text-align: left;
@@ -49,5 +50,6 @@
   .quote {
     max-width: 100%;
     line-height: 1.7;
+    margin-top: 6.5rem;
   }
 }

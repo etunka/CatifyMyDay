@@ -1,6 +1,6 @@
 .paw {
   bottom: 0;
-  right: 2rem;
+  right: 2.3rem;
   cursor: pointer;
   img {
     width: 12rem;
@@ -8,6 +8,14 @@
 }
 
 .paw--small {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 9rem;
+  right: 0;
   img {
     width: 6rem;
   }
@@ -16,6 +24,8 @@
 @media (min-width: 768px) {
   .paw {
     right: 6rem;
+    bottom: 0;
+    top: inherit;
     img {
       width: 20rem;
     }
@@ -25,6 +35,8 @@
 @media (min-width: 1024px) {
   .paw {
     right: 20rem;
+    bottom: 0;
+    top: inherit;
 
     img {
       width: 16rem;
@@ -35,9 +47,13 @@
     }
   }
   .paw--small {
-    bottom: -4em;
+    position: fixed;
+    bottom: -4rem;
     right: 8rem;
+    top: inherit;
     transition: bottom 0.5s ease;
+    transform: none;
+    cursor: pointer;
     &:hover {
       bottom: 0;
     }
